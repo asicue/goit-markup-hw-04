@@ -17,12 +17,9 @@
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
-.team-item .socials-list {
-  padding: 0 16px 32px;
-}
 .team-socials-link {
   background-color: #4d5ae5;
-  color: #f4f4f4;
+  color: #f4f4fd;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .team-socials-link:hover,
