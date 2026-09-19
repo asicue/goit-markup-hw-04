@@ -17,6 +17,17 @@
     0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #fff;
 }
+.team-item .socials-list {
+  padding: 0 16px 32px;
+}
+.team-socials-link {
+  background-color: #4d5ae5;
+  color: #fff;
+}
+.team-socials-link:hover,
+.team-socials-link:focus {
+  background-color: #404bbf;
+}
 .team-ill {
 }
 .team-content {

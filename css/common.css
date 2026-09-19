@@ -93,6 +93,7 @@ img {
   background-color: transparent;
   box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-filled {
   color: #fff;
@@ -101,4 +102,25 @@ img {
 .btn-filled:hover,
 .btn-filled:focus {
   background-color: #404bbf;
+}
+
+/* Socials */
+.socials-list {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.socials-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.socials-icon {
+  fill: currentColor;
 }

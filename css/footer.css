@@ -2,7 +2,17 @@
   padding: 100px 0;
   background: #2e2f42;
 }
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+.footer-logo-wrapper {
+  margin-right: 120px;
+}
 .footer-logo {
+  display: inline-block;
+  margin-bottom: 16px;
+
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 18px;
@@ -15,4 +25,25 @@
   max-width: 264px;
   margin-top: 16px;
   color: #f4f4fd;
+}
+.footer-social-title {
+  color: #fff;
+}
+.footer-socials-link {
+  background-color: #4d5ae5;
+  color: #fff;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-socials-link:hover,
+.footer-socials-link:focus {
+  background-color: #31d0aa;
+}
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+  width: 208px;
+  height: 80px;
 }
